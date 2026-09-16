@@ -1,0 +1,16 @@
+{
+  "name": "煤价边际价格分析工具",
+  "terminals": [
+    {
+      "name": "web-server",
+      "command": "python3 -m http.server 8000",
+      "description": "Serves the static site at http://localhost:8000 (open the .html file). Vue, Element Plus and LeanCloud load from CDN."
+    }
+  ],
+  "ports": [
+    {
+      "name": "web server",
+      "port": 8000
+    }
+  ]
+}
